@@ -9,14 +9,15 @@
   }
   
   body{
-    background-color: #222629;
-    color:#f1f1f1;
+    background-color: #0B0C10;
+    color:#C5C6C7;
     font-family: 'Work Sans', sans-serif;
   }
   
   
   
   h1{
+    color:#66fcf1; 
     text-align: center;
     padding: 10px 10px 10px 10px;
   }
@@ -35,7 +36,7 @@
   }
   
   .index:hover {
-    color: #61892F;
+    color: #66FCF1;
   }
   
   .header-index{
@@ -51,22 +52,22 @@
   h2{
     padding-top: 20px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #61892F;
+    border-bottom: 1px solid #66FCF1;
   }
    
   h3{
     font-size:18px;
     padding-top: 30px;
     padding-bottom: 0px;
-    color: #6B6E70;
-    border-bottom: 1px solid #6B6E70;
+    color: #45A29E;
+    border-bottom: 1px solid #45A29E;
   }
   
   h4{
     font-size:24px;
     text-align: center;
     padding: 10px 10px 10px 10px;
-    border-bottom: 1px solid #61892F;
+    border-bottom: 1px solid #66FCF1;
   }
   #text-list li{
     font-size:20px;
@@ -82,7 +83,7 @@
   p.reference {
     font-weight:bold;
     font-size:18px;
-    color:#6B6E70;
+    color:#45A29E;
     text-align:left;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -92,7 +93,7 @@
     font-weight:normal;
     font-style:italic;
     font-size:18px;
-    color:#6B6E70;
+    color:#45A29E;
     text-align:left;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -102,13 +103,13 @@
   a.reference{
     font-weight:400;
     text-decoration: none;
-    color: #86C232
+    color: #45A29E
   }
   
   a.work-link{
     font-size: 20px;
     text-decoration: none;
-    color: #61892F;
+    color: #66FCF1;
   }
   
   .main {
@@ -124,14 +125,14 @@
     display: block;
     margin:auto;
     height: 1px;
-    background: #61892F;
+    background: #66FCF1;
   }
   
   .underline-ref{
     display: block;
     margin:auto;
     height: 1px;
-    background: #6B6E70;
+    background: #C5C6C7;
   }
   
   
@@ -141,7 +142,7 @@
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
-    background-color: #222629;
+    background-color: #0B0C10;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -159,7 +160,7 @@
   
   li.nav a{
     display: block;
-    color: #6B6E70;
+    color: #C5C6C7;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -168,7 +169,7 @@
   
   li.nav-index a{
     display: block;
-    color: #61892F;
+    color: #C5C6C7;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -176,18 +177,19 @@
   }
   
   li.nav a:hover {
-    background-color: #111;
+    border-bottom: 1px solid #66FCF1;  
     transition: 0.3s;
   }
   
   li.nav-index a:hover {
-    background-color: #111;
+    border: 1px solid #66FCF1;    
     transition: 0.3s;
   }
   
   #nav a.active {
-    background-color: #61892F;
-    color: #f1f1f1;
+    background-color: #0B0C10;
+    color: #C5C6C7;
+    border: 1px solid #66FCF1;
   }
   
   ol{
@@ -202,7 +204,7 @@
     border-collapse: collapse;
   }
   #links td, #links th{
-    border: 1px #6B6E70;
+    border: 1px #C5C6C7;
     padding: 8px;
   }
   
@@ -219,7 +221,7 @@
   }
   
   #attributes table, th, td{
-    border: 1px solid #6B6E70;
+    border: 1px solid #C5C6C7;
     border-collapse: collapse;
   }
   
@@ -242,7 +244,7 @@
     display:inline-block;
     padding-top: 30px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #61892F;
+    border-bottom: 1px solid #66FCF1;
   }
   
   input[type='checkbox'] {
@@ -256,7 +258,7 @@
   }
   
   .lbl-toggle-autonomous:hover {
-    color: #61892F;
+    color: #66FCF1;
   }
   
   .lbl-toggle-autonomous::before {
@@ -291,7 +293,7 @@
     display:inline-block;
     padding-top: 30px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #61892F;
+    border-bottom: 1px solid #66FCF1;
   }
   
   .lbl-toggle-blockchain{
@@ -301,7 +303,7 @@
   }
   
   .lbl-toggle-blockchain:hover {
-    color: #61892F;
+    color: #66FCF1;
   }
   
   .lbl-toggle-blockchain::before {
@@ -336,7 +338,7 @@
     display:inline-block;
     padding-top: 30px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #61892F;
+    border-bottom: 1px solid #66FCF1;
   }
   
   .lbl-toggle-cloud{
@@ -346,7 +348,7 @@
   }
   
   .lbl-toggle-cloud:hover {
-    color: #61892F;
+    color: #66FCF1;
   }
   
   .lbl-toggle-cloud::before {
@@ -381,7 +383,7 @@
     display:inline-block;
     padding-top: 30px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #61892F;
+    border-bottom: 1px solid #66FCF1;
   }
   
   input[type='checkbox'] {
@@ -395,7 +397,7 @@
   }
   
   .lbl-toggle-cybersecurity:hover {
-    color: #61892F;
+    color: #66FCF1;
   }
   
   .lbl-toggle-cybersecurity::before {
