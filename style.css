@@ -438,4 +438,47 @@
     clear: both;
     display: table;
   }
+
+
+
+  /*Tabs*/
+.tabs {
+  max-width: 900px;
+  margin-top: 20px;
+  padding: 0 20px;
+  align: center;
+}
+.tabs input {
+  display: none;
+}
+.tabs label {
+  display: inline-block;
+  padding: 6px 0 6px 0;
+  margin: 0 -2px;
+  width: 50%; 
+  font-size:24px;
+  font-weight:900;
+  border-bottom: 1px solid #66FCF1;
+  text-align: center;
+}
+.tabs label:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  color: #66FCF1;
+}
+.tabs input:checked + label {
+  border: 1px solid #66FCF1;
+  border-width: 1px 1px 0 1px;
+}
+.tabs #tab1:checked ~ .content #content1,
+.tabs #tab2:checked ~ .content #content2{
+  display: block;
+}
+.tabs .content > div {
+  display: none;
+  padding-top: 20px;
+  text-align: left;
+  /*height: 192px;*/
+  overflow: auto;
+}
   
