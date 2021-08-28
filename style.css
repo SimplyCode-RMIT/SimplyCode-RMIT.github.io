@@ -241,193 +241,9 @@
   }
   
   
-  /* autonomous */
+ 
   
-  h2.wrap-collapsible-autonomous{
-    display:inline-block;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #66FCF1;
-  }
-  
-  input[type='checkbox'] {
-    display: none;
-  }
-  
-  .lbl-toggle-autonomous{
-    padding: 1rem;
-    cursor: pointer;
-    transition: all 0.25s ease-out;
-  }
-  
-  .lbl-toggle-autonomous:hover {
-    color: #66FCF1;
-  }
-  
-  .lbl-toggle-autonomous::before {
-    content: ' ';
-    display: inline-block;
-  
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
-    border-left: 5px solid currentColor;
-  
-    vertical-align: middle;
-    margin-right: .7rem;
-    transform: translateY(-2px);
-  
-    transition: transform .2s ease-out;
-  }
-  .collapsible-content-autonomous {
-    max-height: 0px;
-    overflow: hidden;
-    transition: max-height .25s ease-in-out;
-  }
-  .toggle-autonomous:checked + .lbl-toggle-autonomous + .collapsible-content-autonomous {
-    max-height: 100%;
-  }
-  .toggle-autonomous:checked + .lbl-toggle-autonomous::before {
-    transform: rotate(90deg) translateX(-3px);
-  }
-  
-  /* blockchain */
-  
-  h2.wrap-collapsible-blockchain{
-    display:inline-block;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #66FCF1;
-  }
-  
-  .lbl-toggle-blockchain{
-    padding: 1rem;
-    cursor: pointer;
-    transition: all 0.25s ease-out;
-  }
-  
-  .lbl-toggle-blockchain:hover {
-    color: #66FCF1;
-  }
-  
-  .lbl-toggle-blockchain::before {
-    content: ' ';
-    display: inline-block;
-  
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
-    border-left: 5px solid currentColor;
-  
-    vertical-align: middle;
-    margin-right: .7rem;
-    transform: translateY(-2px);
-  
-    transition: transform .2s ease-out;
-  }
-  .collapsible-content-blockchain {
-    max-height: 0px;
-    overflow: hidden;
-    transition: max-height .25s ease-in-out;
-  }
-  .toggle-blockchain:checked + .lbl-toggle-blockchain + .collapsible-content-blockchain {
-    max-height: 100%;
-  }
-  .toggle-blockchain:checked + .lbl-toggle-blockchain::before {
-    transform: rotate(90deg) translateX(-3px);
-  }
-  
-  /* cloud */
-  
-  h2.wrap-collapsible-cloud{
-    display:inline-block;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #66FCF1;
-  }
-  
-  .lbl-toggle-cloud{
-    padding: 1rem;
-    cursor: pointer;
-    transition: all 0.25s ease-out;
-  }
-  
-  .lbl-toggle-cloud:hover {
-    color: #66FCF1;
-  }
-  
-  .lbl-toggle-cloud::before {
-    content: ' ';
-    display: inline-block;
-  
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
-    border-left: 5px solid currentColor;
-  
-    vertical-align: middle;
-    margin-right: .7rem;
-    transform: translateY(-2px);
-  
-    transition: transform .2s ease-out;
-  }
-  .collapsible-content-cloud {
-    max-height: 0px;
-    overflow: hidden;
-    transition: max-height .25s ease-in-out;
-  }
-  .toggle-cloud:checked + .lbl-toggle-cloud + .collapsible-content-cloud {
-    max-height: 100%;
-  }
-  .toggle-cloud:checked + .lbl-toggle-cloud::before {
-    transform: rotate(90deg) translateX(-3px);
-  }
-  
-  /* cybersecurity */
-  
-  h2.wrap-collapsible-cybersecurity{
-    display:inline-block;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #66FCF1;
-  }
-  
-  input[type='checkbox'] {
-    display: none;
-  }
-  
-  .lbl-toggle-cybersecurity{
-    padding: 1rem;
-    cursor: pointer;
-    transition: all 0.25s ease-out;
-  }
-  
-  .lbl-toggle-cybersecurity:hover {
-    color: #66FCF1;
-  }
-  
-  .lbl-toggle-cybersecurity::before {
-    content: ' ';
-    display: inline-block;
-  
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
-    border-left: 5px solid currentColor;
-  
-    vertical-align: middle;
-    margin-right: .7rem;
-    transform: translateY(-2px);
-  
-    transition: transform .2s ease-out;
-  }
-  .collapsible-content-cybersecurity {
-    max-height: 0px;
-    overflow: hidden;
-    transition: max-height .25s ease-in-out;
-  }
-  .toggle-cybersecurity:checked + .lbl-toggle-cybersecurity + .collapsible-content-cybersecurity {
-    max-height: 100%;
-  }
-  .toggle-cybersecurity:checked + .lbl-toggle-cybersecurity::before {
-    transform: rotate(90deg) translateX(-3px);
-  }
+
   
   .column-images {
     float: left;
@@ -445,9 +261,9 @@
 
   /*Tabs*/
 .tabs {
-  max-width: 900px;
+  max-width: 100%;
   margin-top: 20px;
-  padding: 0 20px;
+  
   align: center;
 }
 .tabs input {
@@ -482,5 +298,195 @@
   text-align: justify;
   /*height: 192px;*/
   overflow: auto;
+}
+
+
+
+/* backend developer */
+
+h2.wrap-collapsible-backend{
+  display:inline-block;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #66FCF1;
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+
+.lbl-toggle-backend{
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.lbl-toggle-backend:hover {
+  color: #66FCF1;
+}
+
+.lbl-toggle-backend::before {
+  content: ' ';
+  display: inline-block;
+
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid currentColor;
+
+  vertical-align: middle;
+  margin-right: .7rem;
+  transform: translateY(-2px);
+
+  transition: transform .2s ease-out;
+}
+.collapsible-content-backend {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .25s ease-in-out;
+}
+.toggle-backend:checked + .lbl-toggle-backend + .collapsible-content-backend {
+  max-height: 100%;
+}
+.toggle-backend:checked + .lbl-toggle-backend::before {
+  transform: rotate(90deg) translateX(-3px);
+}
+
+/* front end developper */
+
+h2.wrap-collapsible-frontend{
+  display:inline-block;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #66FCF1;
+}
+
+.lbl-toggle-frontend{
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.lbl-toggle-frontend:hover {
+  color: #66FCF1;
+}
+
+.lbl-toggle-frontend::before {
+  content: ' ';
+  display: inline-block;
+
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid currentColor;
+
+  vertical-align: middle;
+  margin-right: .7rem;
+  transform: translateY(-2px);
+
+  transition: transform .2s ease-out;
+}
+.collapsible-content-frontend {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .25s ease-in-out;
+}
+.toggle-frontend:checked + .lbl-toggle-frontend + .collapsible-content-frontend {
+  max-height: 100%;
+}
+.toggle-frontend:checked + .lbl-toggle-frontend::before {
+  transform: rotate(90deg) translateX(-3px);
+}
+
+/* ux designer */
+
+h2.wrap-collapsible-ux{
+  display:inline-block;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #66FCF1;
+}
+
+.lbl-toggle-ux{
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.lbl-toggle-ux:hover {
+  color: #66FCF1;
+}
+
+.lbl-toggle-ux::before {
+  content: ' ';
+  display: inline-block;
+
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid currentColor;
+
+  vertical-align: middle;
+  margin-right: .7rem;
+  transform: translateY(-2px);
+
+  transition: transform .2s ease-out;
+}
+.collapsible-content-ux {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .25s ease-in-out;
+}
+.toggle-ux:checked + .lbl-toggle-ux + .collapsible-content-ux {
+  max-height: 100%;
+}
+.toggle-ux:checked + .lbl-toggle-ux::before {
+  transform: rotate(90deg) translateX(-3px);
+}
+
+/* content editor */
+
+h2.wrap-collapsible-editor{
+  display:inline-block;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #66FCF1;
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+
+.lbl-toggle-editor{
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.lbl-toggle-editor:hover {
+  color: #66FCF1;
+}
+
+.lbl-toggle-editor::before {
+  content: ' ';
+  display: inline-block;
+
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid currentColor;
+
+  vertical-align: middle;
+  margin-right: .7rem;
+  transform: translateY(-2px);
+
+  transition: transform .2s ease-out;
+}
+.collapsible-content-editor {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .25s ease-in-out;
+}
+.toggle-editor:checked + .lbl-toggle-editor + .collapsible-content-editor {
+  max-height: 100%;
+}
+.toggle-editor:checked + .lbl-toggle-editor::before {
+  transform: rotate(90deg) translateX(-3px);
 }
   
