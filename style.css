@@ -88,6 +88,8 @@
     padding-top: 5px;
     padding-bottom: 5px;
   }
+
+
   
   figcaption { 
     font-weight:normal;
@@ -477,7 +479,7 @@
 .tabs .content > div {
   display: none;
   padding-top: 20px;
-  text-align: left;
+  text-align: justify;
   /*height: 192px;*/
   overflow: auto;
 }
